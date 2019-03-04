@@ -7,7 +7,7 @@ import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 
 /**
- * Created by 054478 on 2019/3/4.
+ * Created by Klavor on 2019/3/4.
  */
 public class PermissionsFragment extends Fragment implements OnRequestPermissionResultListener {
 

@@ -8,7 +8,7 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
 
 /**
- * Created by 054478 on 2019/3/4.
+ * Created by Klavor on 2019/3/4.
  */
 public class PermissionsHelper {
     private PermissionsHelper() {

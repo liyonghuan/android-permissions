@@ -23,10 +23,11 @@ public class MainActivity extends AppCompatActivity implements OnRequestPermissi
     }
 
     public void requestPermissions(View view) {
-        String[] permissions = new String[3];
+        String[] permissions = new String[4];
         permissions[0] = Manifest.permission.CAMERA;
         permissions[1] = Manifest.permission.WRITE_EXTERNAL_STORAGE;
-        permissions[2] = Manifest.permission.CALL_PHONE;
+        permissions[2] = Manifest.permission.READ_EXTERNAL_STORAGE;
+        permissions[3] = Manifest.permission.CALL_PHONE;
         PermissionsHelper.requestPermissions(this, permissions);
     }
 
